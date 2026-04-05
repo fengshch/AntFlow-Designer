@@ -15,8 +15,8 @@ import "./assets/css/workflow.css";
 import './assets/css/override-element-ui.css'; 
 import { parseTime,goBack } from "@/utils/hsharpUtils";
 
-import VForm3 from '@/./lib/vform/designer.umd.js';
-import './lib/vform/designer.style.css';
+import VForm3 from '@/./lib/vForm/designer.umd.js';
+import './lib/vForm/designer.style.css';
 
 const app = createApp(App).use(createPinia()).use(router);
 app.use(ElementPlus);

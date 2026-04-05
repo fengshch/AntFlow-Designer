@@ -43,7 +43,7 @@ export default defineConfig(({mode})=>{
     ],
 
     optimizeDeps: {
-      include: ['@/./lib/vform/designer.umd.js']  //此处路径必须跟main.js中import路径完全一致！
+      include: ['@/./lib/vForm/designer.umd.js']  //此处路径必须跟main.js中import路径完全一致！
     },
 
     build: {
